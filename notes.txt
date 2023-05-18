@@ -17,7 +17,7 @@ Command line editing
 
 Builing a pipeline
     sleep 300 &
-    ps -ef |grep 
+    ps -ef |grep
 
 Simple awk idiom
     awk '{print $N}'
@@ -55,4 +55,3 @@ TMUX
 
 FISH
     Suggestions
-    
