@@ -37,6 +37,9 @@ Command line for loops
         ranges {1..10}
         command output with $(command)
 
+Regex
+    See: regex.txt
+
 PERL
     uses syntax from several unix tools, plus more of it's own
     RegEx is easiest here
