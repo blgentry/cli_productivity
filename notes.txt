@@ -1,0 +1,56 @@
+Concepts
+    Flow as a consequence of Speed
+    Computers are good at repetitive tasks; humans are not
+    Think long term payoff; invest time now and reap rewards in productivity later (but soon!)
+
+Tab expansion
+    This should be like breathing; Use it constantly
+    command names
+    files
+    directories
+    press multiple times for a list of matches
+    These become double checks for spelling
+
+Command line editing
+    set -o emacs, set -o vi
+    word movement, substitution, etc
+
+Builing a pipeline
+    sleep 300 &
+    ps -ef |grep 
+
+Simple awk idiom
+    awk '{print $N}'
+    awk '{print "some text " $2 " some more text " $3}'
+
+Command line for loops
+    for var in LIST
+    do
+        command
+        command
+        command
+    done
+
+    LIST
+        typed list
+        enumeration [3,5]
+        ranges {1..10}
+        command output with $(command)
+
+PERL
+    uses syntax from several unix tools, plus more of it's own
+    RegEx is easiest here
+    perl -pe, perl -ne
+    findnumbers.pl example
+
+MOSH
+    demo vs SSH with hotspot
+
+TMUX
+    windows
+    panes
+    disconnect/reconnect
+
+FISH
+    Suggestions
+    
