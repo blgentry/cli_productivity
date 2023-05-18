@@ -1,3 +1,8 @@
+RUN:  /tmp/clonecli.sh
+    This will clone my git repo with these notes and more
+    git clone https://github.com/blgentry/cli_productivity.git
+
+
 Concepts
     Flow as a consequence of Speed
     Computers are good at repetitive tasks; humans are not
