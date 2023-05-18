@@ -44,7 +44,9 @@ PERL
     findnumbers.pl example
 
 MOSH
-    demo vs SSH with hotspot
+    Survives network changes and interruptions
+    LOCAL echo for typing.  This is huge for slow links
+    Predictive response.
 
 TMUX
     windows
