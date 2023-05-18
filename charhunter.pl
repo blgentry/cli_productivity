@@ -5,7 +5,7 @@ open(F,$file);
 
 $collection = "";
 while(<F>) {
-    if ($_ =~ /[^A-Z][A-Z]{3}([a-z])[A-Z]{3}[^A-Z]/) {
+    if ($_ =~ /someregex/) {
         $collection .= $1;
     }
 }
