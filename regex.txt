@@ -1,0 +1,24 @@
+Regex elements:
+
+.               any character
++               appears one or more times
+*               appears zero or more times
+\d              digits
+\s              whitespace (includes tabs)
+\w              "word" characters
+^               anchors to beginning of line
+$               anchors to end of line
+|               logical OR 
+[char list]     type arbitrary single characters
+[^char list]    same as above, but this is an exclude list
+(backreference) matches here are referenced later with $1, $2, in order  
+
+
+Examples:
+
+/apple/         matches apple in any sequence of characters
+/^apple/        matches apple, but only at beginning of line.
+                badapple, for example, will not match.  Nor will "love apples"
+
+/brian.+(apple|orange)/     What does this one do?
+
