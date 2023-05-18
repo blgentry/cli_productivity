@@ -1,0 +1,4 @@
+There is a repeated sequence in hiddenchars.txt that looks something like:
+XYZtABC
+
+Use Regex to find these and see the hidden message.
