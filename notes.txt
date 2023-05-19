@@ -59,7 +59,7 @@ PERL
 MOSH
     Survives network changes and interruptions
     LOCAL echo for typing.  This is huge for slow links
-    Predictive response.
+    Predictive type ahead.
 
 TMUX
     windows
