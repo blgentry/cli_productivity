@@ -20,6 +20,11 @@ Command line editing
     set -o emacs, set -o vi
     word movement, substitution, etc
 
+FZF integration
+    source /usr/share/fzf/fzf.bash
+    ctrl-t search for files below current directory
+    ctrl-r search command history
+
 Builing a pipeline
     sleep 300 &
     ps -ef |grep
